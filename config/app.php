@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        browner12\helpers\HelperServiceProvider::class,
 
         /*
          * Application Service Providers...
