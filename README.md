@@ -28,12 +28,12 @@ Before we start web server make sure we already configure `.env` file and do mig
 $ php artisan migrate
 ```
 
-## What does it look like?
+## How does it look?
 
-<center>
-    <img src="https://telegra.ph/file/49c7571f06872948fb0bc.png" width="45%" height="auto" />
-    <img src="https://telegra.ph/file/613288c34841388c24f34.png" width="45%" height="auto" />
-    <img src="https://telegra.ph/file/dc477d822f5d5717dbd1b.png" width="45%" height="auto" />
-    <img src="https://telegra.ph/file/8741e5fc455f02571b4c2.png" width="45%" height="auto" />
-</center>
+<p align="center">
+    <img src="https://telegra.ph/file/49c7571f06872948fb0bc.png" width="80%" height="auto" />
+    <img src="https://telegra.ph/file/613288c34841388c24f34.png" width="80%" height="auto" />
+    <img src="https://telegra.ph/file/dc477d822f5d5717dbd1b.png" width="80%" height="auto" />
+    <img src="https://telegra.ph/file/8741e5fc455f02571b4c2.png" width="80%" height="auto" />
+</p>
 
