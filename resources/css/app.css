@@ -1,3 +1,18 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+#table_pagination nav > div.hidden > div:nth-child(2) > span span.relative.text-gray-500 {
+    background-color: #6777ef !important;
+    color: white;
+}
+
+#table_pagination nav > div.hidden > div:nth-child(2) > span button.relative,
+#table_pagination nav > div.hidden > div:nth-child(2) > span span.relative {
+    padding: 8px 12px !important;
+}
+
+#form-create > div > div.mt-5,
+.section-body > div > div.max-w-7xl div.md\:grid div.mt-5 {
+    margin-top: 0 !important;
+}
+
+textarea.form-control {
+    height: 64px !important;
+}
