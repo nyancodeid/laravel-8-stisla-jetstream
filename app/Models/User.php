@@ -60,12 +60,6 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 
-    public function setPasswordAttribute($password)
-    {
-        if ( !empty($password) ) {
-            $this->attributes['password'] = Hash::make($password);
-        }
-    }
     /**
      * Search query in multiple whereOr
      */
