@@ -59,13 +59,8 @@ class CreateUser extends Component
 
     public function mount ()
     {
-        if (!!$this->userId) {
-            $user = User::find($this->userId);
-
-            $this->user = [
-                "name" => $user->name,
-                "email" => $user->email,
-            ];
+        if (!$this->user && $this->userId) {
+            $this->user = User::find($this->userId);
         }
 
         $this->button = create_button($this->action, "User");
