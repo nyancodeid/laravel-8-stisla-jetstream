@@ -52,7 +52,10 @@ class CreateUser extends Component
 
         User::query()
             ->where('id', $this->userId)
-            ->update($this->user);
+            ->update([
+                "name" => $this->user->name,
+                "email" => $this->user->email,
+            ]);
 
         $this->emit('saved');
     }
