@@ -44,11 +44,11 @@
                 {{ __($button['submit_response']) }}
             </x-jet-action-message>
 
-            <x-notify-message on="saved" type="success" :message="__($button['submit_response_notyf'])" />
-
             <x-jet-button>
                 {{ __($button['submit_text']) }}
             </x-jet-button>
         </x-slot>
     </x-jet-form-section>
+
+    <x-notify-message on="saved" type="success" :message="__($button['submit_response_notyf'])" />
 </div>
