@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Livewire\Table;
+namespace App\Traits;
 
 
-trait DataTableTrait {
+trait WithDataTable {
     
     public function get_pagination_data ()
     {

@@ -4,10 +4,11 @@ namespace App\Http\Livewire\Table;
 
 use Livewire\Component;
 use Livewire\WithPagination;
+use App\Traits\WithDataTable;
 
 class Main extends Component
 {
-    use WithPagination, DataTableTrait;
+    use WithPagination, WithDataTable;
 
     public $model;
     public $name;
